@@ -1,0 +1,90 @@
+
+.wrapper{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.dashContainer{
+    width: 50%;
+}
+
+.lists{
+    display: flex;
+    align-items: center;
+   justify-content: space-evenly;
+    list-style: none;
+
+}
+.link{
+    text-decoration: none;
+    padding: 5px 10px;
+}
+.dashBtn{
+    padding: 5px;
+    background-color: dodgerblue;
+    color:white;
+    border: none;
+}
+.dashBtn:hover{
+    color: black;
+    background-color: dodgerblue;
+}
+table, tr {
+    border: 1px solid;
+  }
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    height: 30px;
+
+        background-color: #04AA6D;
+        color: white;
+
+}
+td{
+    padding: 5px;
+    text-align: center;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+.togglers{
+    padding: 10px 15px;
+    color: white;
+    font-weight: 700;
+    background-color: crimson;
+    border: none;
+}
+.togglers:hover{
+    cursor:pointer;
+    background-color: #04AA6D;
+}
+
+.visible{
+    display: none;
+}
+
+.btnDiv{
+    display:flex;
+    justify-content: center;
+}
+
+.wrapper{
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+.form{
+    width: 400px;
+    margin-top: 20px;;
+}
+.input{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+select{
+    padding: 5px;
+}

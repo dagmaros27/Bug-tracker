@@ -1,0 +1,53 @@
+.container{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    text-align: center;
+}
+.login{
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+.inputs{
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 20px;
+}
+input{
+    background-color: transparent;
+    padding: 5px;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sameBtn{
+    background-color: crimson;
+    color: white;
+    padding: 10px 15px;
+    font-weight: 600;
+    border: none;
+}
+.sameBtn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: crimson;
+    border: 1px solid crimson;
+}
+a{
+    text-decoration: none;
+    color: crimson;
+}
+a:hover{
+    text-decoration: underline;
+}
